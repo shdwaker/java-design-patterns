@@ -11,7 +11,7 @@ public class InputTest {
                         new BufferedInputStream( // API自带的装饰者
                             new FileInputStream("D:\\test.text")));
             while ((c = in.read()) >= 0) {
-                System.out.println((char)c);
+                System.out.print((char)c);
             }
 
             in.close();

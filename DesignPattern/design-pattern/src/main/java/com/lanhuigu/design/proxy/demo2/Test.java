@@ -9,6 +9,7 @@ package com.lanhuigu.design.proxy.demo2;
  */
 public class Test {
     public static void main(String[] args) {
+        // 通过代理对象访问真实对象
         ProjectProxy pr = new ProjectProxy();
         pr.action();
     }

@@ -10,8 +10,13 @@ package com.lanhuigu.design.singleton.demo8;
  */
 public enum  Singleton {
     INSTANCE;
+    private Something instance;
 
-    public void whateverMethod() {
+    Singleton() {
+        instance = new Something();
+    }
 
+    public Something getInstance() {
+        return instance;
     }
 }

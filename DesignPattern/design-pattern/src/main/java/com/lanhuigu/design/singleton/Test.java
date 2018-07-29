@@ -1,6 +1,8 @@
 package com.lanhuigu.design.singleton;
 
 
+import com.lanhuigu.design.singleton.demo8.Singleton;
+
 /**
  * @author yihonglei
  * @version 1.0.0
@@ -10,5 +12,6 @@ package com.lanhuigu.design.singleton;
  */
 public class Test {
     public static void main(String[] args) {
+        Singleton.INSTANCE.getInstance();
     }
 }

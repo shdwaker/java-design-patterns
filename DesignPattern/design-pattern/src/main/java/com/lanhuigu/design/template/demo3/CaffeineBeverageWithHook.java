@@ -7,6 +7,11 @@ package com.lanhuigu.design.template.demo3;
  * @Package: com.lanhuigu.design.template.demo3
  * @date 2018/3/20 17:58
  */
+/**
+ *
+ * @author yihonglei
+ * @date 2018/8/21 10:20
+ */
 public abstract class CaffeineBeverageWithHook {
     /** 模板方法 */
     void prepareRecipe() {

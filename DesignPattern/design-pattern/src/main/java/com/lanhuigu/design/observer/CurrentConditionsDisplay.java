@@ -1,5 +1,9 @@
-package com.lanhuigu.design.observer.demo1;
-
+package com.lanhuigu.design.observer;
+/**
+ *
+ * @author yihonglei
+ * @date 2018/8/21 10:20
+ */
 public class CurrentConditionsDisplay implements Observer, DisplayElement{
 	private float temprature;
 	private float humidity;

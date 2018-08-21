@@ -7,6 +7,11 @@ package com.lanhuigu.design.template.demo4;
  * @Package: com.lanhuigu.design.template.demo4
  * @date 2018/3/20 19:57
  */
+/**
+ *
+ * @author yihonglei
+ * @date 2018/8/21 10:20
+ */
 public class Duck implements Comparable {
     String name;
     int weight;

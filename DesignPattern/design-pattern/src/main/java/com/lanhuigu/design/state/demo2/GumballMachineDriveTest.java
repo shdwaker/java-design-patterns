@@ -7,6 +7,11 @@ package com.lanhuigu.design.state.demo2;
  * @Package: com.lanhuigu.design.state.demo2
  * @date 2018/3/24 18:53
  */
+/**
+ *
+ * @author yihonglei
+ * @date 2018/8/21 10:20
+ */
 public class GumballMachineDriveTest {
     public static void main(String[] args) {
         GumballMachine gumballMachine = new GumballMachine(5);

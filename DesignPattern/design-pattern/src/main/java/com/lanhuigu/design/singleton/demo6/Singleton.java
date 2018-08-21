@@ -7,6 +7,11 @@ package com.lanhuigu.design.singleton.demo6;
  * 这样，实例化代码只用执行一次，后面再次访问时，判断if (singleton == null)，直接return实例化对象。
  * 优点：线程安全；延迟加载；效率较高。
  */
+/**
+ *
+ * @author yihonglei
+ * @date 2018/8/21 10:20
+ */
 public class Singleton {
     private static Singleton instance;
 

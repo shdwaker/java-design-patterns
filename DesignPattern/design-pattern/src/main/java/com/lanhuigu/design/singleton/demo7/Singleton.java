@@ -10,6 +10,11 @@ package com.lanhuigu.design.singleton.demo7;
  * 类的静态属性只会在第一次加载类的时候初始化，所以在这里，JVM帮助我们保证了线程的安全性，在类进行初始化时，别的线程是无法进入的。
  * 优点：避免了线程不安全，延迟加载，效率高。
  */
+/**
+ *
+ * @author yihonglei
+ * @date 2018/8/21 10:20
+ */
 public class Singleton {
 
     private Singleton() {

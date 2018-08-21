@@ -7,6 +7,11 @@ import java.io.InputStream;
 /**
  * LowerCaseInputStream扩展自抽象装饰者FilterInputStream
  */
+/**
+ *
+ * @author yihonglei
+ * @date 2018/8/21 10:20
+ */
 public class LowerCaseInputStream extends FilterInputStream {
     /**
      * Creates a <code>FilterInputStream</code>

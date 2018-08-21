@@ -1,4 +1,4 @@
-package com.lanhuigu.design.facade.demo1;
+package com.lanhuigu.design.facade;
 
 /**
  * Facade: 外观核心，负责处理客户端的请求给合适的子系统对象
@@ -7,6 +7,11 @@ package com.lanhuigu.design.facade.demo1;
  * @ClassName: SwitchFacade
  * @Package: com.lanhuigu.design.facade.demo1
  * @date 2018/3/19 16:15
+ */
+/**
+ *
+ * @author yihonglei
+ * @date 2018/8/21 10:20
  */
 public class SwitchFacade {
     /** 外观模式所有遇到的组件都放在这里 */

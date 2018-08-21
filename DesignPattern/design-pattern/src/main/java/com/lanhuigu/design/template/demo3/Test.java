@@ -10,6 +10,11 @@ package com.lanhuigu.design.template.demo3;
  * @Package: com.lanhuigu.design.template.demo3
  * @date 2018/3/20 18:19
  */
+/**
+ *
+ * @author yihonglei
+ * @date 2018/8/21 10:20
+ */
 public class Test {
     public static void main(String[] args) {
         CoffeeWithHook coffeeWithHook = new CoffeeWithHook();

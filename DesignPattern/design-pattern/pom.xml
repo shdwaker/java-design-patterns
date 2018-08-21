@@ -7,10 +7,10 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>design-pattern-demo</artifactId>
+    <artifactId>design-pattern</artifactId>
     <packaging>jar</packaging>
 
-    <name>design-pattern-demo</name>
+    <name>design-pattern</name>
     <build>
         <plugins>
             <plugin>

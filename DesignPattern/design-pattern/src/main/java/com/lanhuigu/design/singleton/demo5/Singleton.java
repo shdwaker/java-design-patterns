@@ -8,6 +8,11 @@ package com.lanhuigu.design.singleton.demo5;
  * 线程B开始执行同步代码块中的代码，对instance进行实例化。线程B执行完，线程A获得cpu，由于线程A之前已经判断instance值为null，
  * 它也会去对instance进行实例化。这个时候就会产生多个实例对象。
  */
+/**
+ *
+ * @author yihonglei
+ * @date 2018/8/21 10:20
+ */
 public class Singleton {
     private static Singleton instance;
 

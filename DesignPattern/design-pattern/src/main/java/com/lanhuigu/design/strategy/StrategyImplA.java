@@ -1,6 +1,11 @@
-package com.lanhuigu.design.strategy.demo1;
+package com.lanhuigu.design.strategy;
 /**
  * 算法的具体实现: A算法
+ */
+/**
+ *
+ * @author yihonglei
+ * @date 2018/8/21 10:20
  */
 public class StrategyImplA extends Strategy{
 

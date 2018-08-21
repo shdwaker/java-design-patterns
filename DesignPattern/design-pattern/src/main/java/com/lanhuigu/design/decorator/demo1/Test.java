@@ -1,5 +1,9 @@
 package com.lanhuigu.design.decorator.demo1;
-
+/**
+ *
+ * @author yihonglei
+ * @date 2018/8/21 10:20
+ */
 public class Test {
     public static void main(String[] args) {
         Man man = new Man();

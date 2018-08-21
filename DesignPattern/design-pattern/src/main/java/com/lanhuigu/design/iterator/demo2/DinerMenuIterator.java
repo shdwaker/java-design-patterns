@@ -9,6 +9,11 @@ import java.awt.*;
  * @Package: com.lanhuigu.design.iterator.demo2
  * @date 2018/3/21 13:58
  */
+/**
+ *
+ * @author yihonglei
+ * @date 2018/8/21 10:20
+ */
 public class DinerMenuIterator implements Iterator {
     MenuItem[] items;
     int position = 0;

@@ -10,6 +10,11 @@ import java.util.List;
  * @Package: com.lanhuigu.design.component
  * @date 2018/3/21 15:48
  */
+/**
+ *
+ * @author yihonglei
+ * @date 2018/8/21 10:20
+ */
 public abstract class Employer {
     /** 员工集合 */
     List employers;

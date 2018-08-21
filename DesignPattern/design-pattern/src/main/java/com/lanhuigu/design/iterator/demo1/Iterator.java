@@ -8,6 +8,11 @@ package com.lanhuigu.design.iterator.demo1;
  * @Package: com.lanhuigu.design.iterator
  * @date 2018/3/21 10:37
  */
+/**
+ *
+ * @author yihonglei
+ * @date 2018/8/21 10:20
+ */
 public interface Iterator {
     Object next();
 

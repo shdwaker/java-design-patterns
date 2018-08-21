@@ -7,6 +7,11 @@ package com.lanhuigu.design.template.demo1;
  * @Package: com.lanhuigu.design.template.demo1
  * @date 2018/3/20 11:34
  */
+/**
+ *
+ * @author yihonglei
+ * @date 2018/8/21 10:20
+ */
 public class ConcreteTemplate extends Template {
     @Override
     public void print() {

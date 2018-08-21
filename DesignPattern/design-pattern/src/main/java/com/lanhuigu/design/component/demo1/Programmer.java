@@ -8,6 +8,11 @@ package com.lanhuigu.design.component.demo1;
  * @Package: com.lanhuigu.design.component.demo1
  * @date 2018/3/21 15:50
  */
+/**
+ *
+ * @author yihonglei
+ * @date 2018/8/21 10:20
+ */
 public class Programmer extends Employer {
 
     public Programmer(String name) {

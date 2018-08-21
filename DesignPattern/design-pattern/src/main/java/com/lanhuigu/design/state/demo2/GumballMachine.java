@@ -7,6 +7,11 @@ package com.lanhuigu.design.state.demo2;
  * @Package: com.lanhuigu.design.state.demo2
  * @date 2018/3/24 18:23
  */
+/**
+ *
+ * @author yihonglei
+ * @date 2018/8/21 10:20
+ */
 public class GumballMachine {
     /** 糖果售罄 */
     public final static int SOLE_OUT = 0;

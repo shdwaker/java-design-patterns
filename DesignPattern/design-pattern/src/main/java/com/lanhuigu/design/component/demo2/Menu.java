@@ -11,6 +11,11 @@ import java.util.ArrayList;
  * @Package: com.lanhuigu.design.component.demo2
  * @date 2018/3/21 21:15
  */
+/**
+ *
+ * @author yihonglei
+ * @date 2018/8/21 10:20
+ */
 public class Menu extends MenuComponent {
     ArrayList menuComponents = new ArrayList();
     String name;

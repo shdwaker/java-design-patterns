@@ -7,6 +7,11 @@ package com.lanhuigu.design.template.demo2;
  * @Package: com.lanhuigu.design.template.demo2
  * @date 2018/3/20 11:43
  */
+/**
+ *
+ * @author yihonglei
+ * @date 2018/8/21 10:20
+ */
 public class Tea extends CaffeineBevergeAbstract{
 
     @Override

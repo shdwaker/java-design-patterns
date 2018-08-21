@@ -8,6 +8,11 @@ package com.lanhuigu.design.template.demo2;
  * @Package: com.lanhuigu.design.template.demo2
  * @date 2018/3/20 12:49
  */
+/**
+ *
+ * @author yihonglei
+ * @date 2018/8/21 10:20
+ */
 public abstract class CaffeineBevergeAbstract {
     /**
      * 模板方法

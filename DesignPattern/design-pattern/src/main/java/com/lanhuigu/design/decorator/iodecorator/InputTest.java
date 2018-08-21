@@ -1,7 +1,11 @@
 package com.lanhuigu.design.decorator.iodecorator;
 
 import java.io.*;
-
+/**
+ *
+ * @author yihonglei
+ * @date 2018/8/21 10:20
+ */
 public class InputTest {
     public static void main(String[] args) {
         int c;

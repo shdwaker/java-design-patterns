@@ -1,9 +1,14 @@
-package com.lanhuigu.design.observer.demo1;
+package com.lanhuigu.design.observer;
 
 import java.util.ArrayList;
 import java.util.List;
 /**
  * 目标(主题)
+ */
+/**
+ *
+ * @author yihonglei
+ * @date 2018/8/21 10:20
  */
 public abstract class Citizen {
 	List pols;

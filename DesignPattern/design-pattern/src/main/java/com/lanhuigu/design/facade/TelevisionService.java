@@ -1,4 +1,4 @@
-package com.lanhuigu.design.facade.demo1;
+package com.lanhuigu.design.facade;
 
 /**
  * 子系统接口功能
@@ -7,6 +7,11 @@ package com.lanhuigu.design.facade.demo1;
  * @ClassName: TelevisionService
  * @Package: com.lanhuigu.design.facade.demo1
  * @date 2018/3/19 16:17
+ */
+/**
+ *
+ * @author yihonglei
+ * @date 2018/8/21 10:20
  */
 public interface TelevisionService {
     /**

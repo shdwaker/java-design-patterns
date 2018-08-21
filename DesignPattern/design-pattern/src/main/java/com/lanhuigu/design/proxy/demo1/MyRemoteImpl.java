@@ -11,6 +11,11 @@ import java.rmi.server.UnicastRemoteObject;
  * @Package: com.lanhuigu.design.proxy.demo1
  * @date 2018/3/25 10:01
  */
+/**
+ *
+ * @author yihonglei
+ * @date 2018/8/21 10:20
+ */
 public class MyRemoteImpl extends UnicastRemoteObject implements MyRemote {
 
     public MyRemoteImpl() throws RemoteException{

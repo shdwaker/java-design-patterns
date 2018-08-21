@@ -8,6 +8,11 @@ package com.lanhuigu.design.singleton.demo8;
  * 缺点：
  * 当想实例化一个单例类的时候，必须要记住使用相应的获取对象的方法，而不是使用new，可能会给其他开发人员造成困扰，特别是看不到源码的时候。
  */
+/**
+ *
+ * @author yihonglei
+ * @date 2018/8/21 10:20
+ */
 public enum  Singleton {
     INSTANCE;
     private Something instance;

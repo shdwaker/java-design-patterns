@@ -8,6 +8,11 @@ package com.lanhuigu.design.iterator.demo1;
  * @Package: com.lanhuigu.design.iterator.demo1
  * @date 2018/3/21 10:54
  */
+/**
+ *
+ * @author yihonglei
+ * @date 2018/8/21 10:20
+ */
 public class Test {
     public static void main(String[] args) {
         List list = new ListImpl();

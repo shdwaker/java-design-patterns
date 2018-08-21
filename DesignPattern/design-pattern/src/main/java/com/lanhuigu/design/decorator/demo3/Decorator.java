@@ -8,6 +8,11 @@ package com.lanhuigu.design.decorator.demo3;
  * @date 2018/5/8 12:04
  * @version 1.0.0
  */
+/**
+ *
+ * @author yihonglei
+ * @date 2018/8/21 10:20
+ */
 public abstract class Decorator implements Person{
     protected Person person;
 

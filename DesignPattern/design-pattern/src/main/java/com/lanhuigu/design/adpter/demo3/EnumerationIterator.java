@@ -12,6 +12,11 @@ import java.util.function.Consumer;
  * @Package: com.lanhuigu.design.adpter.demo3
  * @date 2018/3/19 16:01
  */
+/**
+ *
+ * @author yihonglei
+ * @date 2018/8/21 10:20
+ */
 public class EnumerationIterator implements Iterator {
     private Enumeration enume;
 

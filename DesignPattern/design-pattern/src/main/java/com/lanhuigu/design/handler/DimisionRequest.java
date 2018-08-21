@@ -7,6 +7,11 @@ package com.lanhuigu.design.handler;
  * @Package: com.lanhuigu.design.handler
  * @date 2018/3/13 20:25
  */
+/**
+ *
+ * @author yihonglei
+ * @date 2018/8/21 10:20
+ */
 public class DimisionRequest {
 
 }

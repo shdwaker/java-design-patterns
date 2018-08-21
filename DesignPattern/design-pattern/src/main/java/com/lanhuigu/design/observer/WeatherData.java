@@ -1,7 +1,11 @@
-package com.lanhuigu.design.observer.demo1;
+package com.lanhuigu.design.observer;
 
 import java.util.ArrayList;
-
+/**
+ *
+ * @author yihonglei
+ * @date 2018/8/21 10:20
+ */
 public class WeatherData implements Subject{
 	private ArrayList observers; // 观察者列表
 	private float temperature;

@@ -10,6 +10,11 @@ import java.util.ArrayList;
  * @Package: com.lanhuigu.design.component.demo1
  * @date 2018/3/21 15:51
  */
+/**
+ *
+ * @author yihonglei
+ * @date 2018/8/21 10:20
+ */
 public class ProjectManager extends Employer {
 
     public ProjectManager(String name) {

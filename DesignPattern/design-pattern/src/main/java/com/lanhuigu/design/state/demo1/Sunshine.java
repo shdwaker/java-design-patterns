@@ -7,6 +7,11 @@ package com.lanhuigu.design.state.demo1;
  * @Package: com.lanhuigu.design.state.demo1
  * @date 2018/3/24 16:55
  */
+/**
+ *
+ * @author yihonglei
+ * @date 2018/8/21 10:20
+ */
 public class Sunshine implements Weather {
     @Override
     public String getWeather() {

@@ -7,18 +7,8 @@ package com.lanhuigu.design.absfactory;
  */
 public interface IAnimalFactory {
 
-    /**
-     * 创建猫类抽象产品
-     * @author yihonglei
-     * @date 2018/9/6 21:17
-     */
     ICat createCat();
 
-    /**
-     * 创建狗类抽象产品
-     * @author yihonglei
-     * @date 2018/9/6 21:17
-     */
     IDog createDog();
 
 }

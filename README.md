@@ -71,6 +71,6 @@ https://blog.csdn.net/yhl_jxy/article/details/52679935
 22）模板方法模式
 https://blog.csdn.net/yhl_jxy/article/details/52679942
 
-23）观察者模式
+23）访问者模式
 https://blog.csdn.net/yhl_jxy/article/details/52679946
 

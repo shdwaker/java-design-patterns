@@ -1,53 +1,76 @@
 ## 23种设计模式分析大全
 ## A-创建型模式
 
-1）
+1）工厂方法模式
+https://blog.csdn.net/yhl_jxy/article/details/51429587
 
-2）
+2）抽象工厂方法模式
+https://blog.csdn.net/yhl_jxy/article/details/52441260
 
-3）
+3）建造者模式
+https://blog.csdn.net/yhl_jxy/article/details/52595752
 
-4）
+4）单例模式
+https://blog.csdn.net/yhl_jxy/article/details/52621817
 
-5）
+5）原型模式
+https://blog.csdn.net/yhl_jxy/article/details/52622164
+
 
 ## B-结构型模式
 
-6）
+6）适配器模式
+https://blog.csdn.net/yhl_jxy/article/details/52679844
 
-7）
+7）桥接模式
+https://blog.csdn.net/yhl_jxy/article/details/52679849
 
-8）
+8）组合模式
+https://blog.csdn.net/yhl_jxy/article/details/52679855
 
-9）
+9）装饰器模式
+https://blog.csdn.net/yhl_jxy/article/details/52679862
 
-10）
+10）外观模式
+https://blog.csdn.net/yhl_jxy/article/details/52679869
 
-11）
+11）享元模式
+https://blog.csdn.net/yhl_jxy/article/details/52679877
 
-12）
+12）代理模式
+https://blog.csdn.net/yhl_jxy/article/details/52679882
 
 ## C-行为型模式
+13）责任链模式
+https://blog.csdn.net/yhl_jxy/article/details/52679884
 
-13）
+14）命令模式
+https://blog.csdn.net/yhl_jxy/article/details/52679886
 
-14）
+15）解释器模式
+https://blog.csdn.net/yhl_jxy/article/details/52679898
 
-15）
+16）迭代器模式
+https://blog.csdn.net/yhl_jxy/article/details/52679901
 
-16）
+17）中介者模式
+https://blog.csdn.net/yhl_jxy/article/details/52679902
 
-17）
+18）备忘录模式
+https://blog.csdn.net/yhl_jxy/article/details/52679906
 
-18）
+19）观察者模式
+https://blog.csdn.net/yhl_jxy/article/details/52679907
 
-19）
+20）状态模式
+https://blog.csdn.net/yhl_jxy/article/details/52679931
 
-20）
+21）策略模式
+https://blog.csdn.net/yhl_jxy/article/details/52679935
 
-21）
+22）模板方法模式
+https://blog.csdn.net/yhl_jxy/article/details/52679942
 
-22）
-
-23）
+23）观察者模式
+https://blog.csdn.net/yhl_jxy/article/details/52679946
 

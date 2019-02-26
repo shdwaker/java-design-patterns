@@ -13,15 +13,31 @@ package com.lanhuigu.design.singleton.demo8;
  * @author yihonglei
  * @date 2018/8/21 10:20
  */
-public enum  Singleton {
-    INSTANCE;
-    private Something instance;
+public class Singleton {
 
-    Singleton() {
-        instance = new Something();
+    private Singleton() {
+
     }
 
-    public Something getInstance() {
-        return instance;
+    /**
+     * 枚举本身是单例的，主要利用枚举单例的特性创建单例对象。
+     */
+    private enum SingletonEnum{
+        SINGLETON_ENUM;
+
+        private Singleton singleton;
+
+        SingletonEnum() {
+            singleton = new Singleton();
+        }
+
+        public Singleton getInstance(){
+            return singleton;
+        }
     }
+
+    public static Singleton getInstance(){
+        return SingletonEnum.SINGLETON_ENUM.getInstance();
+    }
+
 }

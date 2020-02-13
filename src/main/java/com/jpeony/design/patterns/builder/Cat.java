@@ -1,5 +1,8 @@
 package com.jpeony.design.patterns.builder;
 
+/**
+ * @author yihonglei
+ */
 public class Cat {
     private String head;
     private String body;

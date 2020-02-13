@@ -2,8 +2,8 @@ package com.jpeony.design.patterns.absfactory;
 
 /**
  * 狗类产品的具体实现--黑狗
+ *
  * @author yihonglei
- * @date 2018/9/6 21:24
  */
 public class BlackDog implements IDog {
     @Override

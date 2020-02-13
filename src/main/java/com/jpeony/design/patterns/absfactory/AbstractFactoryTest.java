@@ -2,8 +2,8 @@ package com.jpeony.design.patterns.absfactory;
 
 /**
  * 抽象工厂测试类
+ *
  * @author yihonglei
- * @date 2018/9/7 11:22
  */
 public class AbstractFactoryTest {
     public static void main(String[] args) {

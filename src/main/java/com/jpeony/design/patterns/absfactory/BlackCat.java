@@ -2,8 +2,8 @@ package com.jpeony.design.patterns.absfactory;
 
 /**
  * 猫类产品具体实现--黑猫
+ *
  * @author yihonglei
- * @date 2018/9/6 21:23
  */
 public class BlackCat implements ICat {
     @Override

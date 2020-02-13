@@ -1,7 +1,11 @@
 package com.jpeony.design.patterns.builder;
 
+/**
+ * @author yihonglei
+ */
 public class WhiteCatBuilder implements CatBuilder {
     private Cat cat;
+
     public WhiteCatBuilder() {
         cat = new WhiteCat();
     }

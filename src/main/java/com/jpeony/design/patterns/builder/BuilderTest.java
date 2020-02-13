@@ -1,5 +1,8 @@
 package com.jpeony.design.patterns.builder;
 
+/**
+ * @author yihonglei
+ */
 public class BuilderTest {
     public static void main(String[] args) {
         CatDirector cd = new CatDirector();

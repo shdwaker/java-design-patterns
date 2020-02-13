@@ -1,17 +1,9 @@
 package com.jpeony.design.patterns.iterator.demo1;
 
 /**
- * 具体聚合类
- * @author yihonglei
- * @version 1.0.0
- * @ClassName: ListImpl
- * @Package: com.lanhuigu.design.iterator
- * @date 2018/3/21 10:47
- */
-/**
+ * ConcreteAggregate: 具体聚合实现创建相应迭代器的接口，该操作返回ConcreteIterator的一个适当的实例
  *
  * @author yihonglei
- * @date 2018/8/21 10:20
  */
 public class ListImpl implements List {
     private Object[] list;
@@ -42,6 +34,6 @@ public class ListImpl implements List {
     @Override
     public void add(Object obj) {
         list[index++] = obj;
-        size ++;
+        size++;
     }
 }

@@ -2,17 +2,9 @@ package com.jpeony.design.patterns.iterator.demo1;
 
 
 /**
- * 具体迭代器
- * @author yihonglei
- * @version 1.0.0
- * @ClassName: IteratorImpl
- * @Package: com.lanhuigu.design.iterator
- * @date 2018/3/21 10:39
- */
-/**
+ * ConcreteIterator: 具体迭代器实现迭代器Iterator接口
  *
  * @author yihonglei
- * @date 2018/8/21 10:20
  */
 public class IteratorImpl implements Iterator {
     private List list;

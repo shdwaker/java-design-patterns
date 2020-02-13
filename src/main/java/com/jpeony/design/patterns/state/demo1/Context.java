@@ -1,16 +1,9 @@
 package com.jpeony.design.patterns.state.demo1;
 
 /**
- * @author yihonglei
- * @version 1.0.0
- * @ClassName: Context
- * @Package: com.lanhuigu.design.state
- * @date 2018/3/24 16:54
- */
-/**
+ * Context: 定义一个用户感兴趣的接口，维护一个ContereteState实例，这个实例定义当前状态
  *
  * @author yihonglei
- * @date 2018/8/21 10:20
  */
 public class Context {
     private Weather weather;

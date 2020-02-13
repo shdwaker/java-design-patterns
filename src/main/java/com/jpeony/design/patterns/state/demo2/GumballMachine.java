@@ -2,29 +2,32 @@ package com.jpeony.design.patterns.state.demo2;
 
 /**
  * @author yihonglei
- * @version 1.0.0
- * @ClassName: GumballMachine
- * @Package: com.lanhuigu.design.state.demo2
- * @date 2018/3/24 18:23
- */
-/**
- *
- * @author yihonglei
- * @date 2018/8/21 10:20
  */
 public class GumballMachine {
-    /** 糖果售罄 */
+    /**
+     * 糖果售罄
+     */
     public final static int SOLE_OUT = 0;
-    /** 有25分 */
+    /**
+     * 有25分
+     */
     public final static int NO_QUARTER = 1;
-    /** 没有25分 */
+    /**
+     * 没有25分
+     */
     public final static int HAS_QUARTER = 2;
-    /** 糖果出售 */
+    /**
+     * 糖果出售
+     */
     public final static int SOLD = 3;
 
-    /** 机器状态 */
+    /**
+     * 机器状态
+     */
     int state = SOLE_OUT;
-    /** 糖果数量 */
+    /**
+     * 糖果数量
+     */
     int count = 0;
 
     public GumballMachine(int count) {
@@ -77,7 +80,7 @@ public class GumballMachine {
     public void dispense() {
         if (state == SOLD) {
             System.out.println("A gumball comes rolling out the slot");
-            count = count -1;
+            count = count - 1;
             if (count == 0) {
                 System.out.println("Oops, out of gumballs!");
                 state = SOLE_OUT;

@@ -2,11 +2,8 @@ package com.jpeony.design.patterns.proxy.demo2;
 
 /**
  * 代理角色
- */
-/**
  *
  * @author yihonglei
- * @date 2018/8/21 10:20
  */
 public class ProjectProxy implements Object {
     Object obj;

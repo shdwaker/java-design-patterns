@@ -1,17 +1,9 @@
-package com.jpeony.design.patterns.component.demo1;
+package com.jpeony.design.patterns.composite.demo1;
 
 /**
  * Leaf: 组合对象的叶节点对象，叶节点对象没有字节点对象，并且定义了叶节点对象的行为
- * @author yihonglei
- * @version 1.0.0
- * @ClassName: Programmer
- * @Package: com.lanhuigu.design.component.demo1
- * @date 2018/3/21 15:50
- */
-/**
  *
  * @author yihonglei
- * @date 2018/8/21 10:20
  */
 public class Programmer extends Employer {
 

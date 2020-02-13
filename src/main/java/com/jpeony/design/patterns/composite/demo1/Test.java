@@ -1,16 +1,8 @@
-package com.jpeony.design.patterns.component.demo1;
+package com.jpeony.design.patterns.composite.demo1;
 
 import java.util.List;
 
 /**
- * @author yihonglei
- * @version 1.0.0
- * @ClassName: Test
- * @Package: com.lanhuigu.design.component.demo1
- * @date 2018/3/21 15:51
- */
-/**
- *
  * @author yihonglei
  * @date 2018/8/21 10:20
  */
@@ -35,7 +27,7 @@ public class Test {
 
         List ems = projectManager.getEmployers();
 
-        for (int i=0;i < ems.size();i++) {
+        for (int i = 0; i < ems.size(); i++) {
             Employer em = (Employer) ems.get(i);
             System.out.println(em.getName());
         }

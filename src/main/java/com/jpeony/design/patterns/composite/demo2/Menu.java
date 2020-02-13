@@ -1,4 +1,4 @@
-package com.jpeony.design.patterns.component.demo2;
+package com.jpeony.design.patterns.composite.demo2;
 
 import com.jpeony.design.patterns.iterator.demo2.Iterator;
 
@@ -6,15 +6,6 @@ import java.util.ArrayList;
 
 /**
  * @author yihonglei
- * @version 1.0.0
- * @ClassName: Menu
- * @Package: com.lanhuigu.design.component.demo2
- * @date 2018/3/21 21:15
- */
-/**
- *
- * @author yihonglei
- * @date 2018/8/21 10:20
  */
 public class Menu extends MenuComponent {
     ArrayList menuComponents = new ArrayList();

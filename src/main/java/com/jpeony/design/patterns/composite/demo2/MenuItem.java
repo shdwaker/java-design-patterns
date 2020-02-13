@@ -1,18 +1,9 @@
-package com.jpeony.design.patterns.component.demo2;
+package com.jpeony.design.patterns.composite.demo2;
 
 /**
  * @author yihonglei
- * @version 1.0.0
- * @ClassName: MenuItem
- * @Package: com.lanhuigu.design.component.demo2
- * @date 2018/3/21 20:01
  */
-/**
- *
- * @author yihonglei
- * @date 2018/8/21 10:20
- */
-public class MenuItem extends MenuComponent{
+public class MenuItem extends MenuComponent {
     String name;
     String description;
     boolean vegetarian;

@@ -1,10 +1,9 @@
 package com.jpeony.design.patterns.decorator.iodecorator;
 
 import java.io.*;
+
 /**
- *
  * @author yihonglei
- * @date 2018/8/21 10:20
  */
 public class InputTest {
     public static void main(String[] args) {
@@ -12,10 +11,10 @@ public class InputTest {
         try {
             InputStream in =
                     new LowerCaseInputStream(// 自定义装饰者
-                        new BufferedInputStream( // API自带的装饰者
-                            new FileInputStream("D:\\test.text")));
+                            new BufferedInputStream( // API自带的装饰者
+                                    new FileInputStream("D:\\test.text")));
             while ((c = in.read()) >= 0) {
-                System.out.print((char)c);
+                System.out.print((char) c);
             }
 
             in.close();

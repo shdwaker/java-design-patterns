@@ -6,11 +6,8 @@ import java.io.InputStream;
 
 /**
  * LowerCaseInputStream扩展自抽象装饰者FilterInputStream
- */
-/**
  *
  * @author yihonglei
- * @date 2018/8/21 10:20
  */
 public class LowerCaseInputStream extends FilterInputStream {
     /**
@@ -29,14 +26,14 @@ public class LowerCaseInputStream extends FilterInputStream {
     @Override
     public int read() throws IOException {
         int c = super.read();
-        return (c == -1 ? c : Character.toLowerCase((char)(c)));
+        return (c == -1 ? c : Character.toLowerCase((char) (c)));
     }
 
     @Override
     public int read(byte[] b, int off, int len) throws IOException {
         int result = super.read(b, off, len);
-        for (int i = off; i < off + result; i ++) {
-            b[i] = (byte)Character.toLowerCase((char)(b[i]));
+        for (int i = off; i < off + result; i++) {
+            b[i] = (byte) Character.toLowerCase((char) (b[i]));
         }
         return result;
     }

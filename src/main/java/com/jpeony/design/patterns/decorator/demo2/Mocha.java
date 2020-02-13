@@ -2,8 +2,6 @@ package com.jpeony.design.patterns.decorator.demo2;
 
 /**
  * ConcreteDecorator: 装饰者，负责给被装饰者添加新行为。
- */
-/**
  *
  * @author yihonglei
  * @date 2018/8/21 10:20

@@ -2,18 +2,10 @@ package com.jpeony.design.patterns.decorator.demo3;
 
 /**
  * 具体构件
- * @author yihonglei
- * @ClassName: Student
- * @Package: com.lanhuigu.design.decorator.demo3
- * @date 2018/5/8 12:03
- * @version 1.0.0
- */
-/**
  *
  * @author yihonglei
- * @date 2018/8/21 10:20
  */
-public class Student implements Person{
+public class Student implements Person {
 
     @Override
     public void study() {
